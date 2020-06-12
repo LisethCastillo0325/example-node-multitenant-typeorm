@@ -1,0 +1,10 @@
+# Conexión de base de datos
+TYPEORM_CONNECTION=postgres
+TYPEORM_USERNAME=admincommon
+TYPEORM_PORT=5432
+TYPEORM_HOST=localhost
+TYPEORM_DATABASE=common_db
+TYPEORM_PASSWORD=admincommon
+TYPEORM_SYNCHRONIZE = true
+TYPEORM_LOGGING = false
+TYPEORM_ENTITIES = dist/entity/**/*.js
